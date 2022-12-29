@@ -1,0 +1,2 @@
+# jps_presentation_reserachmap
+日本物理学会の発表業績をresearchmapにインポート可能なjsonlファイルとして出力
