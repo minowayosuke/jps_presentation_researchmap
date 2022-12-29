@@ -11,7 +11,7 @@
 - google chrome
 
 # 必要なライブラリのインストール
-'''
+```
 pip install selenium
 pip install webdriver-manager
-'''
+```
