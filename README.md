@@ -32,5 +32,16 @@ pipでインストールできるはず。
 - 学会情報_物性.csv
 - 学会情報_素核.csv
 のすべてのファイルを同じ場所に置きます。
-```meetings, fromdates, todates = np.genfromtxt('学会情報_素核.csv',delimiter=",",dtype='str',encoding='utf-8-sig',unpack =True)
+```
+meetings, fromdates, todates = np.genfromtxt('学会情報_素核.csv',delimiter=",",dtype='str',encoding='utf-8-sig',unpack =True)
+```
+のファイル名を、自分の分野に応じて'学会情報_素核.csv'あるいは'学会情報_物性.csv'に変更します。
+```
+authors = "山田太郎" #検索用の著者名
+```
+に、検索用に使う名前（例えば自分の姓名など）を入れます。
+```
+user_id = "B000000000" #researchmap会員ID
+```
+に自分のresearchmap会員IDを記入してください（researchmapの各自のホームページに記載があるはず）。
 
