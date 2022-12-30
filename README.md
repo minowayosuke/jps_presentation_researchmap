@@ -28,4 +28,9 @@ pipでインストールできるはず。
 次項で説明する方法で生成されるjsonlファイルをresearchmapにインポートしてください。
 
 ## 2018年秋季大会から2022年秋季大会までまとめて抽出したい場合
+- jps_meetiings_to_researchmap_2018_2022.py
+- 学会情報_物性.csv
+- 学会情報_素核.csv
+のすべてのファイルを同じ場所に置きます。
+```meetings, fromdates, todates = np.genfromtxt('学会情報_素核.csv',delimiter=",",dtype='str',encoding='utf-8-sig',unpack =True)
 
