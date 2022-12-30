@@ -1,6 +1,6 @@
-# jps_presentation_reserachmap
+# jps_presentation_researchmap
 日本物理学会の発表業績（ただし2018年秋季大会以降）を、発表者の名前を元にスクレイピングで抽出します。さらにその抽出結果をresearchmapにインポート可能なjsonlファイルとして出力するpythonプログラムです。
-日本物理学会のプログラムページの検索機能を利用します。
+日本物理学会のプログラムページの検索機能を利用します。2018年より前と後で、検索ページのフォーマットが異なるため、2018年以前には対応していません。
 
 # 注意事項
 - 招待講演の有無は判定されません（招待講演では無いと判定される）
@@ -48,3 +48,16 @@ user_id = "B000000000" #researchmap会員ID
 
 ```jps_meetiings_to_researchmap_2018_2022.py```
 を実行すると、google chromeが複数回立ち上がり、各学会の情報がスクレイピングされます。最終的に出力された```jps_presentations.jsonl```をresearchmapの講演・口頭発表等からインポートしてください。
+
+
+## 特定の物理学会（ただし2018年秋季大会以降）について、発表業績を抽出したい場合
+```jps_meeting_to_researchmap.py```を使用します。
+```
+authors = "山田太郎" #検索用の著者名
+```
+に、検索用に使う名前（例えば自分の姓名など）を入れます。
+```
+user_id = "B000000000" #researchmap会員ID
+```
+に自分のresearchmap会員IDを記入してください（researchmapの各自のホームページに記載があるはず）。
+
