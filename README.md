@@ -45,3 +45,5 @@ user_id = "B000000000" #researchmap会員ID
 ```
 に自分のresearchmap会員IDを記入してください（researchmapの各自のホームページに記載があるはず）。
 
+jps_meetiings_to_researchmap_2018_2022.py
+を実行すると、google chromeが複数回立ち上がり、各学会の情報がスクレイピングされます。最終的に出力されたjps_presentations.jsonl
