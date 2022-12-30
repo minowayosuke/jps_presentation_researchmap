@@ -20,6 +20,7 @@
 - selenium
 - selenium
 - webdriver_manager
+
 公式ページを参考にしてインストールしてください。おそらく
 pipでインストールできるはず。
 
