@@ -60,4 +60,15 @@ authors = "山田太郎" #検索用の著者名
 user_id = "B000000000" #researchmap会員ID
 ```
 に自分のresearchmap会員IDを記入してください（researchmapの各自のホームページに記載があるはず）。
-
+```
+jps_url = "https://onsite.gakkai-web.net/jps/jps_search/2022au/data2/search/index.html"#検索画面url
+```
+に適切なurlを入れてください。
+学会プログラムトップページではなく、そこから辿れる検索ページのurlを入れる必要があります。
+```
+fromdate = "2022-09-12"#学会開始日
+todate = "2022-09-15"#学会終了日
+```
+に適切な会期情報を入れてください。
+```jps_meeting_to_researchmap.py```
+を実行すると、google chromeが一回立ち上がり、各学会の情報がスクレイピングされます。最終的に出力された```jps_presentations.jsonl```をresearchmapの講演・口頭発表等からインポートしてください。
