@@ -94,4 +94,6 @@ user_id = "B000000000" #researchmap会員ID
 ```
 の部分だけを変更し、あとはメニューからRuntime → Run all
 で実行できます。
+最終的に出力されたjps_presentations.jsonlをresearchmapの講演・口頭発表等からインポートしてください。
+
 注意事項を確認の上、くれぐれも自己責任でお願いします。
